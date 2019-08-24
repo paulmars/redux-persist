@@ -114,7 +114,7 @@ const secondaryPersistor = createPersistor(store, {storage: specialBackupStorage
 - **localStorage** (default) web
 - **sessionStorage**
 - **[localForage](https://github.com/mozilla/localForage)** (recommended) web, see usage below
-- **[AsyncStorage](http://facebook.github.io/react-native/docs/asyncstorage.html#content)** for react-native
+- **[AsyncStorage](https://github.com/react-native-community/async-storage)** for react-native
 - **[redux-persist-filesystem-storage](https://github.com/robwalkerco/redux-persist-filesystem-storage)** for use in react-native Android to mitigate storage size limitations ([#199](https://github.com/rt2zz/redux-persist/issues/199), [284](https://github.com/rt2zz/redux-persist/issues/284))
 - **[redux-persist-node-storage](https://github.com/pellejacobs/redux-persist-node-storage)** for use in nodejs environments.
 - **[redux-persist-sensitive-storage](https://github.com/CodingZeal/redux-persist-sensitive-storage)** for use in react-native for sensitive information (uses [react-native-sensitive-storage](https://github.com/mCodex/react-native-sensitive-info)).
